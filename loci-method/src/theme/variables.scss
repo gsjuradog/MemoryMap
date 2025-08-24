@@ -1,0 +1,11 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+html, body, app-root {
+  height: 100%;
+  margin: 0;
+}
+
+app-map-canvas {
+  display: block;
+  height: 100%;
+}

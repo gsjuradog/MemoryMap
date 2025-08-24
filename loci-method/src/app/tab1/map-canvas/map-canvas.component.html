@@ -1,0 +1,21 @@
+  <div
+    class="map-container"
+    (click)="onMapClick($event)"
+  >
+    <!-- Background -->
+
+
+    <!-- Pins -->
+    @for (pin of pins; track pin.id) {
+      <button
+        type="button"
+        class="absolute transform -translate-x-1/2 -translate-y-1/2 text-2xl"
+        [style.left.%]="pin.x * 100"
+        [style.top.%]="pin.y * 100"
+        (click)="openPin(pin, $event)"
+      >
+        📍
+      </button>
+    }
+  </div>
+

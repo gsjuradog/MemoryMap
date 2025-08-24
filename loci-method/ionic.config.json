@@ -1,0 +1,7 @@
+{
+  "name": "LociMethod",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
